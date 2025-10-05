@@ -1,0 +1,3 @@
+.chatbot-container.active + .chatbot-toggle {
+    display: none;
+}

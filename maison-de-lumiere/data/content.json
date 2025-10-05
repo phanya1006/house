@@ -1,0 +1,181 @@
+{
+  "departments": [
+    {
+      "name": "Intercession",
+      "description": "Groupe de prière dédié à intercéder pour les besoins de l'église, de la communauté et du monde. Nous croyons en la puissance de la prière fervente.",
+      "image": "images/intercession.jpg",
+      "leader": {
+        "name": "Marie Dupont",
+        "role": "Responsable Intercession",
+        "image": "images/leader-intercession.jpg",
+        "contact": "marie.d@maisondelumiere.fr"
+      }
+    },
+    {
+      "name": "Chorale",
+      "description": "Ministère de louange qui mène la congrégation dans l'adoration à travers la musique et le chant. Nous croyons que la louange ouvre les cieux.",
+      "image": "images/chorale.jpg",
+      "leader": {
+        "name": "Jean Martin",
+        "role": "Directeur de Chorale",
+        "image": "images/leader-chorale.jpg",
+        "contact": "jean.m@maisondelumiere.fr"
+      }
+    },
+    {
+      "name": "Prédication",
+      "description": "Étude approfondie et partage de la Parole de Dieu. Nous nous engageons à proclamer l'Évangile avec fidélité et pertinence.",
+      "image": "images/predication.jpg",
+      "leader": {
+        "name": "Paul Lambert",
+        "role": "Responsable Enseignement",
+        "image": "images/leader-predication.jpg",
+        "contact": "paul.l@maisondelumiere.fr"
+      }
+    },
+    {
+      "name": "Protocole",
+      "description": "Service d'accueil et d'organisation des événements de l'église. Nous veillons à ce que chaque visiteur se sente le bienvenu et chéri.",
+      "image": "images/protocol.jpg",
+      "leader": {
+        "name": "Sophie Bernard",
+        "role": "Responsable Protocole",
+        "image": "images/leader-protocol.jpg",
+        "contact": "sophie.b@maisondelumiere.fr"
+      }
+    },
+    {
+      "name": "Style Vestimentaire",
+      "description": "Conseils et orientation sur la tenue vestimentaire appropriée pour le culte et les activités de l'église, dans le respect et la modestie.",
+      "image": "images/style-vestimentaire.jpg",
+      "leader": {
+        "name": "Claire Moreau",
+        "role": "Responsable Style",
+        "image": "images/leader-style.jpg",
+        "contact": "claire.m@maisondelumiere.fr"
+      }
+    }
+  ],
+  "events": [
+    {
+      "title": "Retraite Spirituelle Annuelle",
+      "description": "Week-end de ressourcement, d'enseignement et de communion fraternelle dans la nature. Un temps privilégié avec Dieu.",
+      "date": "2023-11-10",
+      "time": "Samedi 9h - Dimanche 17h"
+    },
+    {
+      "title": "Célébration des Baptêmes",
+      "description": "Cérémonie spéciale de baptêmes dans la rivière. Moment de joie et d'engagement public envers Christ.",
+      "date": "2023-11-15",
+      "time": "Dimanche 14h"
+    },
+    {
+      "title": "Concert de Louange Nocturne",
+      "description": "Soirée spéciale de louange avec la chorale et les musiciens. Venez vous rafraîchir dans la présence de Dieu.",
+      "date": "2023-11-20",
+      "time": "Samedi 19h"
+    },
+    {
+      "title": "Conférence sur le Mariage Chrétien",
+      "description": "Enseignement spécial pour les couples et les futurs mariés sur les fondements bibliques du mariage.",
+      "date": "2023-11-25",
+      "time": "Samedi 15h-18h"
+    },
+    {
+      "title": "Action Sociale : Distribution de Repas",
+      "description": "Sortie missionnaire pour servir les démunis de notre communauté. Ouvert à tous les volontaires.",
+      "date": "2023-11-30",
+      "time": "Jeudi 10h-14h"
+    }
+  ],
+  "sermons": [
+    {
+      "title": "La Foi qui Déplace les Montagnes",
+      "date": "05 Nov 2023",
+      "preacher": "Pasteur Principal",
+      "duration": "45 min",
+      "category": "foi",
+      "audioUrl": "audio/sermon1.mp3",
+      "videoUrl": "https://youtube.com/embed/example1"
+    },
+    {
+      "title": "L'Espérance en Temps d'Épreuve",
+      "date": "29 Oct 2023",
+      "preacher": "Pasteur Principal",
+      "duration": "52 min",
+      "category": "espoir",
+      "audioUrl": "audio/sermon2.mp3",
+      "videoUrl": "https://youtube.com/embed/example2"
+    },
+    {
+      "title": "Le Pardon Libérateur",
+      "date": "22 Oct 2023",
+      "preacher": "Pasteur Principal",
+      "duration": "48 min",
+      "category": "pardon",
+      "audioUrl": "audio/sermon3.mp3",
+      "videoUrl": "https://youtube.com/embed/example3"
+    },
+    {
+      "title": "La Puissance de la Louange",
+      "date": "15 Oct 2023",
+      "preacher": "Pasteur Principal",
+      "duration": "41 min",
+      "category": "foi",
+      "audioUrl": "audio/sermon4.mp3",
+      "videoUrl": "https://youtube.com/embed/example4"
+    },
+    {
+      "title": "Vivre dans l'Esprit",
+      "date": "08 Oct 2023",
+      "preacher": "Pasteur Principal",
+      "duration": "55 min",
+      "category": "espoir",
+      "audioUrl": "audio/sermon5.mp3",
+      "videoUrl": "https://youtube.com/embed/example5"
+    }
+  ],
+  "testimonials": [
+    {
+      "content": "Dieu a transformé ma vie de manière miraculeuse. Après des années de dépression et d'angoisse, j'ai trouvé la joie et la paix véritable à la Maison de Lumière. La prière et la communion fraternelle ont été des instruments de guérison dans ma vie.",
+      "author": {
+        "name": "Thomas L.",
+        "role": "Membre depuis 2 ans",
+        "image": "images/testimonial1.jpg"
+      }
+    },
+    {
+      "content": "La Maison de Lumière a été un refuge pour ma famille pendant une période de grande difficulté financière. L'amour et le soutien concret que nous avons reçus nous ont aidés à surmonter l'épreuve et à retrouver l'espérance.",
+      "author": {
+        "name": "Famille Martin",
+        "role": "Membres depuis 5 ans",
+        "image": "images/testimonial2.jpg"
+      }
+    },
+    {
+      "content": "Je suis venu par curiosité et je suis resté par conviction. L'enseignement biblique solide et l'authenticité des relations ont répond à ma quête spirituelle. Aujourd'hui, je sers avec joie dans le département de la chorale.",
+      "author": {
+        "name": "David K.",
+        "role": "Membre depuis 3 ans",
+        "image": "images/testimonial3.jpg"
+      }
+    }
+  ],
+  "pastor": {
+    "name": "Pasteur Jean-Christophe Lumière",
+    "title": "Fondateur et Berger Principal",
+    "bio": "Le Pasteur Jean-Christophe Lumière a fondé la Maison de Lumière en 2010 avec une vision claire : être une lumière dans la communauté et apporter l'espérance de l'Évangile à tous. Avec plus de 20 ans de ministère, son enseignement allie profondeur biblique et pertinence pratique pour la vie quotidienne.",
+    "image": "images/berger.jpg",
+    "contact": "pasteur@maisondelumiere.fr"
+  },
+  "churchInfo": {
+    "name": "Maison de Lumière",
+    "slogan": "Vous êtes la lumière du monde",
+    "address": "123 Avenue de la Foi, 75000 Ville Lumière",
+    "phone": "+33 1 23 45 67 89",
+    "email": "contact@maisondelumiere.fr",
+    "whatsapp": "+33 1 23 45 67 89",
+    "instagram": "@maisondelumiere",
+    "history": "Fondée en 2010, la Maison de Lumière est née d'une vision divine reçue par le Pasteur Jean-Christophe Lumière. Depuis ses modestes débuts avec une petite assemblée, l'église a grandi pour toucher des centaines de vies à travers ses différents ministères. Notre mission reste inchangée : être une lumière dans les ténèbres et proclamer l'amour transformateur de Jésus-Christ."
+  }
+} 

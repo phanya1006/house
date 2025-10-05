@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maison de Lumière - Église Chrétienne</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- En-tête -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>HOUSE OF THE LIGHT</h1>
+                <p>« Vous êtes la lumière du monde » - Matthieu 5:14</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#programme">Programme</a></li>
+                    <li><a href="#departements">Départements</a></li>
+                    <li><a href="#evenements">Événements</a></li>
+                    <li><a href="#qui-sommes-nous">À propos</a></li>
+                    <li><a href="#berger">Notre Berger</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Section Accueil -->
+    <section id="accueil" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Bienvenue à la Maison de Lumière</h1>
+            <p>Une communauté chrétienne vivante où chacun trouve sa place</p>
+            <div class="hero-buttons">
+                <a href="#programme" class="btn-primary">Découvrir nos activités</a>
+                <a href="#contact" class="btn-secondary">Nous rendre visite</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Section Programme -->
+    <section id="programme" class="section">
+        <div class="container">
+            <h2>Nos Horaires de Culte</h2>
+            <p class="section-subtitle">Rejoignez-nous pour célébrer et grandir ensemble dans la foi</p>
+            <div class="program-grid">
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-hands-praying"></i>
+                    </div>
+                    <h3>Mardi</h3>
+                    <p>Prière communautaire</p>
+                    <p class="time">15h - 17h</p>
+                </div>
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-book-bible"></i>
+                    </div>
+                    <h3>Jeudi</h3>
+                    <p>Culte d'enseignement</p>
+                    <p class="time">15h - 17h</p>
+                </div>
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Samedi</h3>
+                    <p>Culte jeunes & ados</p>
+                    <p class="time">14h - 16h</p>
+                </div>
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-church"></i>
+                    </div>
+                    <h3>Dimanche</h3>
+                    <p>Culte principal</p>
+                    <p class="time">10h - 13h</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Départements -->
+    <section id="departements" class="section bg-light">
+        <div class="container">
+            <h2>Nos Départements</h2>
+            <p class="section-subtitle">Soyez une lumière active dans notre communauté</p>
+            <div class="departments-grid">
+                <!-- Les départements seront chargés dynamiquement -->
+            </div>
+            <div class="center">
+                <button id="join-department" class="btn-primary">Rejoindre un département</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Événements -->
+    <section id="evenements" class="section">
+        <div class="container">
+            <h2>Événements à Venir</h2>
+            <p class="section-subtitle">Participez à nos activités spéciales et retraites spirituelles</p>
+            <div class="events-container">
+                <div class="events-list">
+                    <!-- Les événements seront chargés dynamiquement -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Témoignages -->
+    <section id="temoignages" class="section bg-light">
+        <div class="container">
+            <h2>Témoignages</h2>
+            <p class="section-subtitle">Découvrez comment Dieu agit dans la vie de nos membres</p>
+            <div class="testimonials-container">
+                <div class="testimonial-slider">
+                    <!-- Les témoignages seront chargés dynamiquement -->
+                </div>
+                <div class="testimonial-nav">
+                    <!-- Les points de navigation seront générés dynamiquement -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Qui sommes-nous -->
+    <section id="qui-sommes-nous" class="section">
+        <div class="container">
+            <h2>Notre Église</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Une communauté de foi et d'amour</h3>
+                    <p>Fondée en 2021, la Maison de Lumière est une église chrétienne engagée à être une lumière dans notre communauté. Nous croyons en la puissance transformatrice de l'Évangile et nous nous efforçons de créer un environnement accueillant où chacun peut grandir dans sa relation avec Dieu.</p>
+                    <p>Notre mission est d'aimer Dieu, d'aimer notre prochain et de faire des disciples de Jésus-Christ qui impactent positivement leur monde.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">4</span>
+                            <span class="stat-label">Années de service</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">5</span>
+                            <span class="stat-label">Départements actifs</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">4</span>
+                            <span class="stat-label">Cultes par semaine</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="../images/télécharger (1).jpg" alt="Notre église">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Notre Berger -->
+    <section id="berger" class="section bg-light">
+        <div class="container">
+            <h2>Notre Berger</h2>
+            <p class="section-subtitle">Rencontrez notre guide spirituel</p>
+            <div class="pastor-content">
+                <div class="pastor-image">
+                    <img src="images/Capture d’écran_5-10-2025_234118_www.instagram.com.jpeg" alt="Pasteur de la Maison de Lumière">
+                </div>
+                <div class="pastor-info">
+                    <h3>Berger Aggelos Kevin Kamate</h3>
+                    <p class="pastor-title">Fondateur et Berger Principal</p>
+                    <div class="pastor-bio">
+                        <p>Le Berger Aggelos Kevin Kamate est le fondateur et berger principal de la Maison de Lumière. Appelé par Dieu dès son jeune âge, il a consacré sa vie au service du Royaume et à l'édification du Corps de Christ.</p>
+                        
+                        <p>Sa vision pour la Maison de Lumière est née en 2021, lorsqu'il a reçu de Dieu l'appel à établir une communauté où la Parole de Dieu serait enseignée avec puissance et authenticité, et où chaque croyant pourrait découvrir et déployer son potentiel en Christ.</p>
+                        
+                        <p>Doté d'un cœur de berger et d'une passion pour l'évangélisation, le Pasteur [Nom du Pasteur] enseigne avec une profondeur biblique remarquable, tout en maintenant une approche pratique et applicable à la vie quotidienne. Ses messages sont caractérisés par leur clarté, leur pertinence et leur capacité à transformer les vies.</p>
+                        
+                        <p>Il est marié à maman Rachelle Kamate et père d'enfant. Ensemble, ils servent le peuple de Dieu avec dévouement et compassion.</p>
+                        
+                        <p class="pastor-quote">"Ma passion est de voir chaque personne découvrir son identité en Christ et vivre la plénitude de son destin en Dieu."</p>
+                    </div>
+                    
+                    <div class="pastor-mission">
+                        <h4>Vision et Mission</h4>
+                        <ul>
+                            <li>Établir une communauté de disciples passionnés pour Christ</li>
+                            <li>Former des leaders selon le cœur de Dieu</li>
+                            <li>Impacter la société par l'amour et la vérité de l'Évangile</li>
+                            <li>Équiper les saints pour l'œuvre du ministère</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Dons -->
+    <section id="dons" class="section bg-accent">
+        <div class="container">
+            <div class="donation-content">
+                <h2>Soutenir l'œuvre de Dieu</h2>
+                <p>Vos dons nous aident à poursuivre notre mission et à toucher plus de vies par l'Évangile.</p>
+                <button id="donate-btn" class="btn-primary">Faire un don</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Nous Contacter</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Visitez-nous</h3>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Enceinte ISTGA, rue maman Mulezi primaire ,après la pacerelle<br>Ville de Goma</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <p></p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <p>contact@maisondelumiere.fr</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <p>+243 907 651 154</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/maisondelumiere_?utm_source=ig_web_button_share_sheet&igsh=MWNyMGozb3RzdWhqaA=="><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Envoyez-nous un message</h3>
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Votre nom" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Votre email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Sujet" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Votre message..." rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Envoyer le message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Maison de Lumière</h3>
+                    <p>« Vous êtes la lumière du monde » - Matthieu 5:14</p>
+                    <p>Une église chrétienne engagée à répandre l'amour et l'espoir dans notre communauté.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Liens rapides</h3>
+                    <ul>
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#programme">Programme</a></li>
+                        <li><a href="#departements">Départements</a></li>
+                        <li><a href="#evenements">Événements</a></li>
+                        <li><a href="#qui-sommes-nous">À propos</a></li>
+                        <li><a href="#berger">Notre Berger</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Horaires des cultes</h3>
+                    <ul>
+                        <li>Mardi: 15h-17h (Prière)</li>
+                        <li>Jeudi: 15h-17h (Enseignement)</li>
+                        <li>Samedi: 14h-16h (Jeunes)</li>
+                        <li>Dimanche: 10h-13h (Culte principal)</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Enceinte ISTGA, rue maman Mulezi primaire ,après la pacerelle, Ville de Goma</p>
+                    <p><i class="fas fa-phone"></i>+243 907 651 154</p>
+                    <p><i class="fas fa-envelope"></i> contact@maisondelumiere.fr</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Maison de Lumière. Tous droits réservés.</p>
+                <p>Que la paix du Christ soit avec vous.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chatbot IA -->
+    <div class="chatbot-container">
+        <div class="chatbot-header">
+            <h3>Assistant Spirituel</h3>
+            <button class="chatbot-close"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="chatbot-messages">
+            <div class="message bot-message">
+                <p>Bonjour ! Je suis votre assistant virtuel. Comment puis-je vous aider aujourd'hui ?</p>
+            </div>
+        </div>
+        <div class="chatbot-input">
+            <input type="text" placeholder="Posez votre question...">
+            <button class="send-btn"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+    <button class="chatbot-toggle">
+        <i class="fas fa-robot"></i>
+    </button>
+
+    <!-- Modals -->
+    <div id="donation-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Faire un don</h2>
+            <p>Voulez-vous soutenir l'œuvre de la Maison de Lumière ?</p>
+            <div class="modal-buttons">
+                <button id="confirm-donation" class="btn-primary">Oui, faire un don</button>
+                <button class="btn-secondary close-modal">Annuler</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="department-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Rejoindre un département</h2>
+            <p>Voulez-vous vous inscrire pour servir dans l'un de nos départements ?</p>
+            <div class="modal-buttons">
+                <button id="confirm-department" class="btn-primary">Oui, m'inscrire</button>
+                <button class="btn-secondary close-modal">Annuler</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/ai-chatbot.js"></script>
+</body>
+</html>
