@@ -93,7 +93,7 @@ function initDepartmentsSection() {
         {
             id: 3,
             name: "Chorale et Louange",
-            description: "Nous organisons des actions caritatives et des services pour répondre aux besoins de notre communauté locale.",
+            description: "L'unisson des âmes dans une célébration mélodieuse.",
             image: "../images/chor.jpg",
             leader: {
                 name: "Frère Rolland",
@@ -587,3 +587,4 @@ function showNotification(message, type) {
     }, 5000);
 
 }
+
