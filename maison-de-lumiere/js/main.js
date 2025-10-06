@@ -107,7 +107,7 @@ function initDepartmentsSection() {
             description: "Conseil et orientation sur la tenue vestimentaire appropriée pour les activités de l'église.",
             image: "../images/style.jpg",
             leader: {
-                name: "Soeur Jemimah",
+                name: "Soeur Jemima",
                 role: "Responsable de la mode",
                 image: "../images/Jey.jpg"
             }
@@ -118,7 +118,7 @@ function initDepartmentsSection() {
             description: "Service d'accueil et d'organisation des événements de l'église.",
             image: "../images/protocole.jpg",
             leader: {
-                name: "Soeur Rachelle",
+                name: "Soeur Rachel",
                 role: "Responsable du protocole",
                 image: "../images/protocole.jpg"
             }
@@ -585,4 +585,5 @@ function showNotification(message, type) {
             }, 400);
         }
     }, 5000);
+
 }
